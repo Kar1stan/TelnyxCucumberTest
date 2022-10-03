@@ -29,5 +29,5 @@ https://github.com/cucumber/json-formatter
 
 Install project dependencies with: npm i
 
-## 🚀 Run the demo: 
+## 🚀 Run the project: 
 Open the terminal and run: npm run cypress:run
