@@ -1,5 +1,5 @@
 
-class CompareCostsPage {
+class StoragePage {
     elements={
         SMSBtn(){
             return cy.xpath("//button[text()='SMS']")
@@ -12,12 +12,14 @@ class CompareCostsPage {
         },
         speakToOurExpertsBtn(){
             return cy.xpath("//a[text()='Speak to our experts']")
+        },
+        jointheWaitlistBtn(){
+            return cy.xpath("//a[text()='JOIN THE WAITLIST.']")
         }
     }
-    ConfigurateVoice(){
-        this.elements.tollFreeNumbersLabel().scrollIntoView();
-        this.elements.labelNo().click({ force: true});
-        this.elements.tollFreeNumbersLabel().click({ force: true});
+    openCloadStoragePage(){
+        this.elements.jointheWaitlistBtn().click({ force: true});
     }
+    
 }
-module.exports = new CompareCostsPage();
+module.exports = new StoragePage();
