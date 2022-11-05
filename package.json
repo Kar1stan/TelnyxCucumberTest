@@ -6,6 +6,7 @@
   "scripts": {
     "cypress:open": "cypress open --browser chrome --env allure=true",
     "cypress:run": "cypress run --browser chrome --env allure=true",
+    "cypress:allure": "allure generate && allure open",
     "cypress:execution-tags": "cypress run --env tags=@mobile"
   },
   "keywords": [
