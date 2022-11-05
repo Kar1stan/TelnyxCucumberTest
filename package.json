@@ -4,8 +4,8 @@
   "description": "This project is meant to be a kind of template to start working with Cucumber and Cypress just cloning the project.",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open --env allure=true",
-    "cypress:run": "cypress run --env allure=true",
+    "cypress:open": "cypress open --browser chrome --env allure=true",
+    "cypress:run": "cypress run --browser chrome --env allure=true",
     "cypress:execution-tags": "cypress run --env tags=@mobile"
   },
   "keywords": [
