@@ -24,7 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm i
-    - run: npm cypress:open
+    - run: npm run cypress:open
     - run: allure generate
     - run: allure open
     
