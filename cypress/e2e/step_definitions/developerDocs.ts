@@ -14,7 +14,6 @@ import {MainPage} from "../../pages/MainPage.page"
 
   When("A user clicks Development button and SDK Setup buttons", () => {
     const developerDocsPage = new DeveloperDocsPage();
-    developerDocsPage.clickDeveloperDocsBtn();
     developerDocsPage.clickSDKSetupLinkInDevelopmentBtn();
   });
    
