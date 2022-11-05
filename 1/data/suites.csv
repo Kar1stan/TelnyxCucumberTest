@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Oct 04 11:45:09 GMT 2022","Tue Oct 04 11:45:20 GMT 2022","11182","","Footer Blog page","","","","Should set filters by product and content",""
-"passed","Tue Oct 04 11:44:21 GMT 2022","Tue Oct 04 11:44:27 GMT 2022","5710","","Footer AboutUs page","","","","Should click Amsterdam Google Maps link",""
-"passed","Tue Oct 04 11:47:42 GMT 2022","Tue Oct 04 11:48:03 GMT 2022","20950","","Footer DeveloperDocs page","","","","Should clicks Development button and SDK Setup buttons",""
-"passed","Tue Oct 04 11:46:27 GMT 2022","Tue Oct 04 11:46:36 GMT 2022","9394","","Footer Data & Privacy page","","","","Should scroll to Overview button and click page button",""
