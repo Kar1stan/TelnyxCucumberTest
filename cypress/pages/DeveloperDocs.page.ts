@@ -22,7 +22,7 @@ export class DeveloperDocsPage {
     }
 
     clickSDKSetupLinkInDevelopmentBtn(){
-        this.DevelopmentBtn().click()
+        this.DevelopmentBtn().click({force:true})
         this.sdkSetupBtn().click();
     }
 }
