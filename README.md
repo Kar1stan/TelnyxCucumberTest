@@ -25,6 +25,8 @@ Also, download and install the JSON fomatter depending on your OS
 
 https://github.com/cucumber/json-formatter
 
+Also delete package-lock file before you run your project.
+
 ## 🚀 Install the project
 
 Install project dependencies with: npm i
