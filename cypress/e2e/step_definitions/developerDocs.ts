@@ -19,5 +19,5 @@ import {MainPage} from "../../pages/MainPage.page"
    
   Then("Panel how to integrate telnyx is visible", () => {
     const developerDocsPage = new DeveloperDocsPage();
-    developerDocsPage.tabpanelNode().should('be.visible');
+    developerDocsPage.nodeBtn().should('have.attr', 'aria-selected').and('equal', 'true');
   });
