@@ -12,8 +12,8 @@ export class DeveloperDocsPage {
             return cy.xpath("//a[text()='SDK Setup']")
         }
 
-        tabpanelNode(){
-            return cy.get("#tabpanel-Node")
+        nodeBtn(){
+            return cy.get("#tab-Node")
         }
 
     clickDeveloperDocsBtn(){
