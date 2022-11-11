@@ -32,6 +32,11 @@ $ npm install
 ```
 
 ## 🚀 Run the project: 
-Open the terminal and run: npm run cypress:run
-
-To create allure report open the terminal and run: npm run cypress:allure
+Open the terminal and run:
+```
+$ npm run cypress:run
+```
+To create allure report open the terminal and run:
+```
+$ npm run cypress:allure
+```
