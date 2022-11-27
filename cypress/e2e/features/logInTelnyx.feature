@@ -15,7 +15,7 @@ Feature: LogIn page
         Then The url of the page won't change and incorrect error inputs messages will be displayed
     Scenario: Should LogIn with false company email in Single Sign-On
         When A user clicks Single Sign-On button, enters false company email without @ symbol "foloxovgmail.com", and clicks on the Continue button
-        Then The error message request not found will be displayed 1
+        Then The url won't change and enter valid email error message will be displayed  
     Scenario: Should LogIn with false business name with 4 numbers in Single Sign-On
         When A user clicks Single Sign-On button, clicks company name button , enters false business name with 4 numbers "5555", and clicks on the Continue button
-        Then The error message request not found will be displayed 2
+        Then The error message request not found will be displayed 
