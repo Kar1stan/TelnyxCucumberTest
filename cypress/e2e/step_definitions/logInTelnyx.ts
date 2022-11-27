@@ -44,14 +44,14 @@ import MainPage from "../../pages/MainPage.page"
     loginPage.fillCompanyEmail(falsemailWithoutAtSymbol);
   });
 
-  Then("The error message request not found will be displayed 1", () => {
-    loginPage.logInErrorRequestNotFound.should('be.visible');
+  Then("The url won't change and enter valid email error message will be displayed", () => {
+     cy.url().should('include','/login/sign-in');
   });
 
   When("A user clicks Single Sign-On button, clicks company name button , enters false business name with 4 numbers {string}, and clicks on the Continue button", (falsenameWithFourNumbers) => {
     loginPage.fillBusinessName(falsenameWithFourNumbers);
   });
 
-  Then("The error message request not found will be displayed 2", () => {
+  Then("The error message request not found will be displayed", () => {
     loginPage.logInErrorRequestNotFound.should('be.visible');
   });
