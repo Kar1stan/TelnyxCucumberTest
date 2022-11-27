@@ -18,7 +18,5 @@ import MainPage from "../../pages/MainPage.page"
     aboutUsPage.locateAmsterdam();
   });
    
-  Then("The user will see the description of the street", () => {
-    cy.url().should('include','/maps/place/Keizersgracht');
-  });
+  Then("The user will see the description of the street", () => {});
  
