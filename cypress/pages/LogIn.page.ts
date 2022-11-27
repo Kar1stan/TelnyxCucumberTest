@@ -41,8 +41,7 @@ export default class LogInPage {
         }
 
         get logInErrorRequestNotFound(){
-        return cy.get("div[type='error']")
-        //it's another error but div has not any other selector-usable trait except type,class is a computer fiction
+        return cy.get("div[type='error']",{timeout:6000})
         }
     
     clickLogInBtn(){
