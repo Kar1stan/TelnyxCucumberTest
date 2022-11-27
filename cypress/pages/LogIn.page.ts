@@ -41,7 +41,7 @@ export default class LogInPage {
         }
 
         get logInErrorRequestNotFound(){
-        return cy.get("div[type='error']",{timeout:10_000})
+        return cy.get("div[type='error']")
         }
     
     clickLogInBtn(){
