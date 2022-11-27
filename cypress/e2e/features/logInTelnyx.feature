@@ -14,7 +14,7 @@ Feature: LogIn page
         When A user leave all credentials empty, and clicks on the Log in button
         Then The url of the page won't change and incorrect error inputs messages will be displayed
     Scenario: Should LogIn with false company email in Single Sign-On
-        When A user clicks Single Sign-On button, enters false company email without @ "foloxovgmail.com", and clicks on the Continue button
+        When A user clicks Single Sign-On button, enters false company email without @ symbol "foloxovgmail.com", and clicks on the Continue button
         Then The error message request not found will be displayed 1
     Scenario: Should LogIn with false business name with 4 numbers in Single Sign-On
         When A user clicks Single Sign-On button, clicks company name button , enters false business name with 4 numbers "5555", and clicks on the Continue button
