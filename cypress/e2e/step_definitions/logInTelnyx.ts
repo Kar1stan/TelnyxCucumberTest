@@ -40,7 +40,7 @@ import MainPage from "../../pages/MainPage.page"
     cy.url().should('include','/login/sign-in');
   });
 
-  When("A user clicks Single Sign-On button, enters false company email without @ {string}, and clicks on the Continue button", (falsemailWithoutAtSymbol) => {
+  When("A user clicks Single Sign-On button, enters false company email without @ symbol {string}, and clicks on the Continue button", (falsemailWithoutAtSymbol) => {
     loginPage.fillCompanyEmail(falsemailWithoutAtSymbol);
   });
 
