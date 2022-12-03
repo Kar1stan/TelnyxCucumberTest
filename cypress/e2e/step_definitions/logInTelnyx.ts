@@ -34,7 +34,7 @@ import MainPage from "../../pages/MainPage.page"
     LogInPage.fillLogInWithEmptyCredentials();
   });
 
-  Then("The url of the page won't change and inccorect error inputs messages will be displayed", () => {
+  Then("The url of the page won't change and incorrect error inputs messages will be displayed", () => {
     cy.url().should('include','/login/sign-in');
   });
 
