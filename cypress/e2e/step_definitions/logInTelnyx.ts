@@ -39,7 +39,6 @@ import MainPage from "../../pages/MainPage.page"
   });
 
   When("A user clicks Single Sign-On button, enters false company email without @ symbol {string}, and clicks on the Continue button", (emailWithoutAtSymbol) => {
-    LogInPage.clickLogInBtn();
     LogInPage.clickSingleSignOnBtn();
     LogInPage.fillCompanyEmail(emailWithoutAtSymbol);
     LogInPage.clickContinueBtn();
@@ -50,7 +49,6 @@ import MainPage from "../../pages/MainPage.page"
   });
 
   When("A user clicks Single Sign-On button, clicks company name button , enters false business name with 4 numbers {string}, and clicks on the Continue button", (nameWithFourNumbers) => {
-    LogInPage.clickLogInBtn();
     LogInPage.clickSingleSignOnBtn();
     LogInPage.clickCompanyName();
     LogInPage.fillBusinessName(nameWithFourNumbers);
