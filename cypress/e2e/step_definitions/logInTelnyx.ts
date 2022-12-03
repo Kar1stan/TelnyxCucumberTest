@@ -16,7 +16,7 @@ import MainPage from "../../pages/MainPage.page"
     LogInPage.clickSubmitBtn();
   });
  
-  Then("The url won't change and enter valid email error message will be displayed", () => {
+  Then("The url won't change and enter valid email error message will be displayed 1", () => {
     cy.url().should('include','/login/sign-in');
   });
   
@@ -34,7 +34,7 @@ import MainPage from "../../pages/MainPage.page"
     LogInPage.fillLogInWithEmptyCredentials();
   });
 
-  Then("The url of the page won't change and incorrect error inputs messages will be displayed", () => {
+  Then("The url of the page won't change and inccorect error inputs messages will be displayed", () => {
     cy.url().should('include','/login/sign-in');
   });
 
@@ -45,7 +45,7 @@ import MainPage from "../../pages/MainPage.page"
     LogInPage.clickContinueBtn();
   });
 
-  Then("The url won't change and enter valid email error message will be displayed", () => {
+  Then("The url won't change and enter valid email error message will be displayed 2", () => {
      cy.url().should('include','/login/sign-in');
   });
 
@@ -57,6 +57,6 @@ import MainPage from "../../pages/MainPage.page"
     LogInPage.clickContinueBtn();
   });
 
-  Then("The url won't change and enter valid email error message will be displayed", () => {
+  Then("The url won't change and enter valid email error message will be displayed 3", () => {
     cy.url().should('include','/login/sign-in');
   });
