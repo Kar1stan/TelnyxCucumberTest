@@ -20,7 +20,6 @@ class SupportCenterPage {
     clickHeadlingReferenceMaterial(){
         this.headlingReferenceMaterial.scrollIntoView();
         this.headlingReferenceMaterial.click();
-        this.spanAccessibleCanadaAct.click();
     }
 
     clickSpanAccessibleCanadaAct(){
