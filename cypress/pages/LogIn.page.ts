@@ -1,7 +1,7 @@
 
 class LogInPage {
         get footerLogInBtn(){
-        return cy.xpath("//span[text()='Log In']")
+        return cy.xpath("//span[text()='Log In']",{timeout:8000})
         }
 
         get emailInput(){
