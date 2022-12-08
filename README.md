@@ -40,3 +40,7 @@ To create allure report open the terminal and run:
 ```
 $ npm run cypress:allure
 ```
+## Credits
+For further help or additional errors [here](https://docs.cypress.io/guides/getting-started/installing-cypress#What-you-ll-learn)
+
+If you want help about allure [here](https://docs.qameta.io/allure/)
