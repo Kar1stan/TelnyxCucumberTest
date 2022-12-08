@@ -5,7 +5,7 @@ class DataPrivacyPage {
         }
 
         get overviewBtn(){
-            return cy.xpath("//button[text()='Overview']",{ timeout: 8000 })
+            return cy.xpath("//button[text()='What is GDPR and CCPA, and what is Telnyx doing to comply?']")
         }
 
         get pageBtn(){
@@ -19,7 +19,7 @@ class DataPrivacyPage {
     
     clickPrivacyLinkInOverviewBtn(){
         this.overviewBtn.scrollIntoView();
-        this.pageBtn.click();
+        //this.pageBtn.click();
     }
 }
 export default new DataPrivacyPage();
