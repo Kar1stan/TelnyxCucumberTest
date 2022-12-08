@@ -9,7 +9,7 @@ class DeveloperDocsPage {
         }
 
         get sdkSetupBtn(){
-            return cy.xpath("//a[text()='SDK Setup']")
+            return cy.xpath("//a[text()='SDK Setup']",{ timeout: 5000 })
         }
 
         get nodeBtn(){
