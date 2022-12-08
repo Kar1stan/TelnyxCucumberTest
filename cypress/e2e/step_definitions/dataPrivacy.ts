@@ -17,5 +17,5 @@ import MainPage from "../../pages/MainPage.page"
   });
    
   Then("A user will be redirected to the privacy policy page", () => {
-    cy.url().should('eq','https://telnyx.com/privacy-policy');
+    cy.url().should('eq','https://telnyx.com/company/data-privacy');
   });
