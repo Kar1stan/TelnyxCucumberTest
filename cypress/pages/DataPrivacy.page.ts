@@ -5,7 +5,7 @@ class DataPrivacyPage {
         }
 
         get overviewBtn(){
-            return cy.xpath("//button[text()='Overview']")
+            return cy.xpath("//button[text()='Overview']",{ timeout: 5000 })
         }
 
         get pageBtn(){
