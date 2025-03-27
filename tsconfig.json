@@ -5,4 +5,4 @@
       "types": ["cypress", "node","cypress-xpath","@shelex/cypress-allure-plugin","@badeball/cypress-cucumber-preprocessor","@bahmutov/cypress-esbuild-preprocessor"]
     },
     "include": ["**/*.ts"]
-}
+}  
