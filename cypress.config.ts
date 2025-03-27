@@ -16,6 +16,7 @@ const allureWriter = require ('@shelex/cypress-allure-plugin/writer')
 //   return config;
 // }
 
+
 export default defineConfig({
   e2e: {
     async setupNodeEvents(on, config) {
